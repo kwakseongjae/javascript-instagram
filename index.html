@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인스타그램</title>
+    <link rel="stylesheet" href="figure1.css" />
+</head>
+
+<body>
+    <!--왼쪽 navbar 부분-->
+    <div class="navbar">
+        <div class="navbar_top">
+            Instagram
+        </div>
+
+        <div class="navbar_contents">
+            <div class="navbar_contents_item">
+                <img src="home.svg" alt="" class="navbar_contents_item_icon">
+                <span class="navbar_contents_item_text">홈</span>
+            </div>
+            <div class="navbar_contents_item">
+                <img src="home.svg" alt="" class="navbar_contents_item_icon">
+                <span class="navbar_contents_item_text">검색</span>
+            </div>
+            <div class="navbar_contents_item">
+                <img src="home.svg" alt="" class="navbar_contents_item_icon">
+                <span class="navbar_contents_item_text">탐색 탭</span>
+            </div>
+            <div class="navbar_contents_item">
+                <img src="home.svg" alt="" class="navbar_contents_item_icon">
+                <span class="navbar_contents_item_text">릴스</span>
+            </div>
+            <div class="navbar_contents_item">
+                <img src="home.svg" alt="" class="navbar_contents_item_icon">
+                <span class="navbar_contents_item_text">메시지</span>
+            </div>
+            <div class="navbar_contents_item">
+                <img src="home.svg" alt="" class="navbar_contents_item_icon">
+                <span class="navbar_contents_item_text">알림</span>
+            </div>
+            <div class="navbar_contents_item">
+                <img src="home.svg" alt="" class="navbar_contents_item_icon">
+                <span class="navbar_contents_item_text">만들기</span>
+            </div>
+            <div class="navbar_contents_item">
+                <img src="home.svg" alt="" class="navbar_contents_item_icon">
+                <span class="navbar_contents_item_text">프로필</span>
+            </div>
+        </div>
+
+        <div class="navbar_bottom">
+            <div class="navbar_bottom_item">
+                <img src="home.svg" alt="" class="navbar_bottom_item_icon">
+                <span class="navbar_bottom_item_text">스레드</span>
+            </div>
+            <div class="navbar_bottom_item">
+                <img src="home.svg" alt="" class="navbar_bottom_item_icon">
+                <span class="navbar_bottom_item_text">더보기</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!--중앙부 main부분-->
+    <main>
+        <!-- Figure3에만 등장하는 부분-->
+        <header class="header">
+            검색창
+        </header>
+
+
+        <!--모든 Figure에서 등장하는 부분-->
+        <div class="mid">
+            <!--인스타 스토리 부분-->
+            <div class="storyfeed">
+                <div class="storyfeed_item">
+                    <div class="storyfeed_item_profile">
+                        <img src="profile.svg">
+                    </div>
+                    <div class="storyfeed_item_nickname">닉네임</div>
+                </div>
+                <div class="storyfeed_item">
+                    <div class="storyfeed_item_profile">
+                        <img src="profile.svg">
+                    </div>
+                    <div class="storyfeed_item_nickname">닉네임</div>
+                </div>
+                <div class="storyfeed_item">
+                    <div class="storyfeed_item_profile">
+                        <img src="profile.svg">
+                    </div>
+                    <div class="storyfeed_item_nickname">닉네임</div>
+                </div>
+            </div>
+
+            <!--인스타 게시글 부분-->
+            <div class="postcards">
+                <div class="postcard">
+
+                    <!-- 게시글 윗 부분 -->
+                    <div class="postcard_top">
+                        <div class="postcard_top_profile">
+                            <img src="profile.svg">
+                        </div>
+                        <span class="postcard_top_nickname"> 닉네임</span>
+                        <div class="postcard_top_timelog">1일</div>
+                        <div class="postcard_top_seemore"><img src="see_more.svg"></div>
+                    </div>
+
+
+                    <!-- 게시글 사진 부분 -->
+                    <div class="postcard_content">
+                        <img src="home.svg" />
+                    </div>
+
+
+                    <!-- 게시글 아래 부분 -->
+                    <div class="postcard_bottom">
+
+                        <div class="postcard_bottom_icons">
+                            <div class="postcard_bottom_icons_left">
+                                <img src="favorite.svg">
+                                <img src="favorite.svg">
+                                <img src="favorite.svg">
+                            </div>
+                            <div class="postcard_bottom_icons_right">
+                                <img src="favorite.svg">
+                            </div>
+                        </div>
+
+                        <div class="postcard_bottom_favorite-count">좋아요 66개</div>
+
+                        <div class="postcard_bottom_writing">
+                            <div class="postcard_bottom_writing_nickname"> 닉네임</div>
+                            <span class="postcard_bottom_writing_content">글</span>
+                        </div>
+
+                        <div class="postcard_bottom_seecomment">댓글보기</div>
+
+                        <input placeholder="댓글달기" class="postcard_bottom_writecomment"></input>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--오른쪽 / Figure1에만 등장하는 부분-->
+        <div class="recommandbar">
+            추천영역
+        </div>
+    </main>
+
+</body>
+
+</html>
